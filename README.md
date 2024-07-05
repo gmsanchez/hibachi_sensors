@@ -1,2 +1,2 @@
-# hibachi_hardware
-hibachi_hardware
+# hibachi_sensors
+hibachi_sensors
