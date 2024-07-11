@@ -12,7 +12,7 @@ def generate_launch_description():
             parameters=[{
                 'serial_port': '/dev/rplidar-a1',
                 'serial_baudrate': 115200,  # A1 / A2
-                'frame_id': 'rplidar_a1',
+                'frame_id': 'rplidar_a1_link',
                 'inverted': False,
                 'angle_compensate': True,
                 # 'scan_mode': 'Standard',
