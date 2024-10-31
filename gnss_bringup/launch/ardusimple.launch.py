@@ -31,7 +31,7 @@ def generate_launch_description():
         namespace='ardusimple',
         executable='nmea_serial_driver',
         output='screen',
-        arguments=['--ros-args', '--log-level', 'INFO'],
+        arguments=['--ros-args', '--log-level', 'ERROR'],
         parameters=[config_file])
 
     return LaunchDescription([driver_node])
