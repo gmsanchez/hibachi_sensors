@@ -14,7 +14,7 @@ def generate_launch_description():
     channel_type =  LaunchConfiguration('channel_type', default='serial')
     serial_port = LaunchConfiguration('serial_port', default='/dev/rplidar-s3')
     serial_baudrate = LaunchConfiguration('serial_baudrate', default='1000000')
-    frame_id = LaunchConfiguration('frame_id', default='rplidar_a1_link')
+    frame_id = LaunchConfiguration('frame_id', default='rplidar_s3_link')
     inverted = LaunchConfiguration('inverted', default='false')
     angle_compensate = LaunchConfiguration('angle_compensate', default='true')
     scan_mode = LaunchConfiguration('scan_mode', default='DenseBoost')
